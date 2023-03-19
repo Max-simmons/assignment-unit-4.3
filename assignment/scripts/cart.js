@@ -25,6 +25,12 @@ console.log('items in the basket')
 listItems();
 console.log(`basket = ${basket}`)
 
-function 
+function empty(){
+    basket.splice(0,basket.length);
+    }
+
+console.log('emptying the basket')
+empty()
+console.log(`basket = ${basket}`)
 
 
